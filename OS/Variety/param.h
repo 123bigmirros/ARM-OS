@@ -1,0 +1,2 @@
+#define NPROC 1024
+#define KSTACKSIZE 4096
