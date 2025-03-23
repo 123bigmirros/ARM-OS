@@ -13,7 +13,7 @@ int main()
         Uart_Init();
         kinit1(Kernel_end, P2V(64 * 1024 * 1024));
         kvmalloc();
-
+        // userinit();
         return 0;
 }
 void init_page()
